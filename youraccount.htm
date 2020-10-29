@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  type="text/css" href="css/account.css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Account - 197T-Rex  </title>
+
+</head>
+<body onload="setValue();">
+    <div id="header">
+        
+    </div>
+    <div id="main">
+        <form id="pannel" method="GET" role="form">
+            <h1 style="color: darkgreen; margin-top: 40px; text-align: center">197T-Rex</h1>
+            <p style="color: #777877;font-style: italic ; font-size: 18px; text-align: center;">Your personal information</p>
+            <div class="label">Username
+                    <div id ="user" class= "output" ></div></div><br>
+            <div class="label">Fisrt name
+                    <div id ="firstname" class= "output" ></div></div><br>
+            <div class="label">Last name
+                    <div id="lname" class= "output" ></div></div><br>
+            <div class="label">Day of birth
+                    <div id="birthday" class= "output" ></div></div><br> 
+        </form>
+        <div id="signin_pal">
+            <button type="submit" onclick="changepass(); return false;">Change Passord</button>
+            <button type="submit" onclick="changeinfo(); return false;">Change Your Info</button>     
+            <button type="submit" onclick="gobackhome(); return false;">Home</button>     
+        </div>
+     </div>
+    
+
+    <div id="footer">
+        <p>© 2020 197T-Rex</p> 
+
+    </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">   </script>
+    <script src="js/account.js"></script>
+</body>
+</html>

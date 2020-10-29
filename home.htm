@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  type="text/css" href="css/home_style.css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>197T-Rex Fibonaccy</title>
+</head>
+<body onload="showName();">
+    <div id="header">
+            <div class="vertical-center">
+                <button type="submit" id="account" onclick ="go_account()">Your Account</button>
+                <button type="submit" id="Log out" onclick="Logout()">Log out</button>
+            </div>
+         
+    </div>
+    <div id="center">
+        <form id="pal" method="GET" role="form">
+            <h1 style="color: darkgreen; margin-top: 40px;">Your Fibonnacy<br> Number Location</h1>
+            <input type="text" id="input" style="font-size: 18px; text-align: center;font-weight: bold;color: blue;" ><br>
+            <div id="errorinput" class="error"></div>
+            <button type ="submit" onclick="Check(); return false;">Check</button>
+            <div id="result">Your Result</div>
+    </form>
+    </div>
+    <div id="footer">
+        <p>© 2020 197T-Rex</p> 
+    </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">   </script>
+    <script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  type="text/css" href="css/infochange_style.css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change info</title>
+</head>
+<body onload="setData();">
+    <div id="header">
+    
+            <div class="vertical-center">
+                <button type="submit" id="Home" onclick="gobackhome(); return false;">Home</button>
+            </div>
+         
+    </div>
+    <div id="center">
+        <div id="pal">
+                <h1 style="color: darkgreen; margin-top: 50px;">Your new information</h1>
+                <div id="info">
+                    <div class="vertical-center">
+                         Fisrt Name:<br>
+                         Last Name:<br>
+                         Birthday:<br></div>
+                </div>
+                <form id="in_frame" method="GET" role="form">           
+                     <div class="vertical-center">
+                         <input type="text" id="new_fname"><br> 
+                         <input type="text" id="new_lname"><br> 
+                         <input type="date" id="new_birthday"><br>
+                        </div>
+                </form>
+                <button type="submit" onclick="savechange(); return false">Save Change</button>           
+        </div>
+    </div>
+    <div id="footer">
+        <p>© 2020 197T-Rex</p> 
+    </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">   </script>
+    <script src="js/changeinfo.js"></script>
+</body>
+</html>

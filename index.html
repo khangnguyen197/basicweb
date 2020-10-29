@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Sign up</title>
+</head>
+<body>
+    <div id="header">
+
+    </div>
+    <div id="main" >
+        <div id="right" class="vertical-center">
+            <form id="login_form"  method="GET" role="form">
+               
+                <h1 style="color: darkgreen; margin-top: 40px;">197T-Rex</h1>
+                <div style="margin-top: 30px;"><input type="text" id="username" placeholder="Email address or username"  /> </div>
+                <div id="errorname" class="error"></div>
+                <input type="password" id="pass" placeholder="Password" >
+                <div id="errorpass" class="error"></div>
+                <button type="submit" id="login_btn" onclick="onFormSubmit(); return false;">Log in</button>
+            </form>
+            <div id="sign">
+                <p>Don't have an acount?
+                <a href="signup.html" tittle="Sign-up">Sign-up</a></p>
+            </div>
+        </div>       
+
+        <div id="left">
+            <div id="brg" class="flex-div"  >
+                <img src="images/logo.png" alt="Logo"/>
+            </div>
+        </div>
+        
+    </div>
+    <div id="footer">
+        <p>© 2020 197T-Rex</p> 
+    </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">   </script>
+    <script src="js/log.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+    font-size: 16;
+    width: auto;
+    margin: 0px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri Light, 'Trebuchet MS', sans-serif;
+}
+.error{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 20px;
+    line-height: auto;
+    text-align: left;
+    color: red;    
+    font-size: 16px;
+}
+.vertical-center {
+    margin: 0; 
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+#header{
+    width: auto;
+    height: 60px;
+    text-align: right;
+    background: darkgreen;
+    position: relative; 
+}#header button{
+    max-width: 100%;
+    height: 30px;
+    font-weight: bold;
+    color: gray;
+    background: white;
+    line-height: 25px;   
+}
+#header #account{
+    color: forestgreen;
+}
+#header .vertical-center{
+    right: 3%;
+}
+
+#center{
+    width: 100%;
+    height: 600px;
+    background: #f0f2f5;
+    float: left;
+}
+#center #pal{
+    width: 380px;
+    max-height: 80%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid darkgreen;
+    background: white;
+    text-align: center;
+}
+#center #pal button{
+    width: 74%;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    border: none;
+    background: #1877f2;
+    color: white;
+    font-size: 16px; font-weight: bold;
+}
+#center #pal button:hover{
+    font-size: 17px;
+}
+#center #pal #result{
+    width: 73%;
+    max-height: 30%;
+    border: 2px solid blue;
+    margin-top:22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 28px;
+    color: blue;
+    text-align: center;
+    line-height: 60px;
+}
+#center #pal input{
+    margin-top: 20px;
+    width: 73%;
+    height: 35px;
+}
+
+
+#footer{
+    width: auto;
+    height: 60px;
+    background:darkgreen;
+    clear: left;  
+}
+#footer p{
+    text-align: center;
+    font-size: 13px;
+    color: lightgray;
+    line-height: 60px;
+    font-weight: bold;
+}

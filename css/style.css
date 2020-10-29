@@ -1,0 +1,129 @@
+body{
+    font-size: 16;
+    width: auto;
+    margin: 0px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.flex-div {
+    display: flex;
+    width: 400px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+#header{
+    background: #f0f2f5;
+    width: auto;
+    height: 20px;
+}
+#main #left{
+    background: #f0f2f5;
+    height: 700px;
+    width: 60%;
+    float: right;
+}
+#main #left #brg{
+    width: 100%;
+    height: 520px;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+#main #left #brg img{
+    
+    max-width: 80%;
+    height: auto;
+    
+}
+#main #left h2{
+    margin-right: auto;
+    text-align: center;
+    color: darkgreen;
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+
+#main #right{
+    background: #f0f2f5;
+    height: 700px;
+    width: 40%;
+    float: right;
+}
+#main #right #login_form{
+    width: 320px;
+    max-height: 390px;
+    background: white;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+    text-align: center;
+    margin-right: auto;
+    margin-top: 80px;
+}
+#main #right #login_form input{
+    width: 250px;
+    height: 50px;
+    background: #f8f8f8;
+    border-radius: 1%;
+    border: 0.5px solid lightgrey;  
+    padding-left: 10px;
+}
+.error{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    max-height: 30px;
+    line-height: 13px;
+    text-align: left;
+    color: red;    
+    font-size: 15px;
+}
+#main #right #login_form button{
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: #1877f2;
+    color: white;
+    font-size: 20px; font-weight: bold;
+    margin-bottom: 40px;
+}
+#main #right #login_form button:hover{
+    font-size: 21px;
+}
+#main #right #sign{
+    height: 60px;
+    width: 320px;
+    background: white;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+    text-align: center;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#main #right #sign p a{
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#footer{
+    width: auto;
+    height: 50px;
+    background: #f0f2f5;
+    clear: right;
+}
+#footer p{
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+    line-height: 50px;
+}
